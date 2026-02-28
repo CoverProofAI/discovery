@@ -47,7 +47,7 @@ Note: `site/` is in `.gitignore` (from MkDocs), so we use `-f` to force add it.
 
 Then push the `site/` folder to `gh-pages`:
 ```bash
-git push origin `git subtree split --prefix site main`:gh-pages --force
+git subtree push --prefix site origin gh-pages
 ```
 
 ### Enable GitHub Pages
